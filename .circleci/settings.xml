@@ -5,11 +5,13 @@
 
     <servers>
         <server>
-            <id>packagecloud.release</id>
+            <id>nexus-snapshot</id>
+            <username>admin</username>
             <password>${env.PCLOUD}</password>
         </server>
         <server>
-            <id>packagecloud.snapshot</id>
+            <id>nexus-release</id>
+            <username>admin</username>
             <password>${env.PCLOUD}</password>
         </server>
     </servers>
