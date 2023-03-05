@@ -55,7 +55,7 @@
     <distributionManagement>
         <snapshotRepository>
             <id>nexus-snapshot</id>
-            <url>http://192.168.0.110:8081/epository/nexus-snapshot/</url>
+            <url>http://192.168.0.110:8081/repository/nexus-snapshot/</url>
         </snapshotRepository>
         <repository>
             <id>nexus-release</id>
